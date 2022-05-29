@@ -11,7 +11,7 @@ html {
 	height: 100%;
 }
 body {
-	color: #1d1720;
+	color: #181720;
 	font-size: 15px;
 	font-family: "Poppins", sans-serif;
 	height: 100%;
@@ -21,7 +21,7 @@ a {
 	text-decoration: none !important;
 }
 a:hover {
-	color: #ffaf53 !important;
+	color: #7b53ff !important;
 }
 img {
 	max-width: 100%;
@@ -123,7 +123,7 @@ h6 {
 	cursor: pointer;
 }
 .nav-scroll .navbar-toggler span {
-	color: #333;
+	color: rgb(51, 51, 51);
 }
 .nav-scroll .nav-link:hover:after {
 	background-color: #2388ed;
@@ -573,7 +573,7 @@ h6 {
 }
 .banner-overlay {
 	padding: 150px 0px 100px;
-	background: linear-gradient(to bottom, rgba(126, 106, 194, 0.82) 0%, #ffaf53 100%);
+	background: linear-gradient(to bottom, rgba(126, 106, 194, 0.82) 0%, #202255 100%);
 }
 }
 
