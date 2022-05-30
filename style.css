@@ -585,6 +585,8 @@ h6 {
 	width: 50%;
 }
 
-#icons_supervisor {
-	
+#iconsSuper {
+	font-size: 30px;
+	display: inline-block;
+	padding: 20px;
 }
