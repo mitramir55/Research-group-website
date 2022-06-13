@@ -18,8 +18,15 @@ body {
 	overflow-x: hidden;
 }
 a {
+	color: #7b53ff !important;
 	text-decoration: none !important;
+	word-break: break-all !important;
 }
+
+a:visited {
+	color: rgb(132, 110, 176);
+  }
+
 a:hover {
 	color: #7b53ff !important;
 }
