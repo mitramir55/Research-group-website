@@ -19,8 +19,7 @@ body {
 }
 a {
 	color: #7b53ff !important;
-	text-decoration: none !important;
-	word-break: break-all !important;
+	text-decoration: none !important;  
 }
 
 a:visited {
@@ -49,6 +48,20 @@ p {
 	line-height: 1.6;
 	font-weight: 400;
 	margin: 0;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important;
+	
+	-ms-word-break: break-all !important;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all !important;
+	/* Instead use this non-standard one: */
+	word-break: break-word !important;
+  
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto !important;
+	-moz-hyphens: auto !important;
+	-webkit-hyphens: auto !important;
+	hyphens: auto !important;
 }
 h1 {
 	font-size: 40px;
