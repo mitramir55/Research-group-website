@@ -115,6 +115,7 @@ h6 {
 .navbar .nav-link {
 	position: relative;
 	padding: 0;
+	color: rgb(213, 229, 237) !important;
 }
 .navbar .navbar-toggler {
 	cursor: pointer;
@@ -124,6 +125,23 @@ h6 {
 }
 .navbar-style2 .active:after, .navbar-style2 .nav-link:after {
 	display: none;
+}
+a:after {
+    content: '';
+    display: block;
+    height: 0.2px;
+    width: 10px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+a:hover:after {
+    width: 100%;
+    background: #eceff5;
+}
+.active{
+	font-weight:bold !important;
+
 }
 .nav-scroll {
 	background: rgb(51, 43, 87);
@@ -318,7 +336,7 @@ h6 {
 }
 .portfolio .filtering .active {
 	background-color: #8187b3;
-	color: #fff;
+	color: rgb(41, 32, 219);
 	border-radius: 28px;
 	-webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
