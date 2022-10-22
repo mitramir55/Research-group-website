@@ -141,7 +141,7 @@ a:hover:after {
 }
 .active{
 	font-weight:bold !important;
-
+	text-decoration: underline;
 }
 .nav-scroll {
 	background: rgb(51, 43, 87);
